@@ -22,3 +22,17 @@ img{
 .sessaoImg img:hover{
     content: url('https://plus.unsplash.com/premium_photo-1664299631876-f143dc691c4d?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWFjYWNvfGVufDB8fDB8fHww');
 }
+
+.sessaoImg img:hover{
+    animation: girar 1s linear infinite;
+}
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
